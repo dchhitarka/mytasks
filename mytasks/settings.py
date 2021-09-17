@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-maxsecurekey-r#2mx6e=c2x7(x(n333m=+q243-0gp9*v(7%)r!80hox_tt6qq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["mytasksdjango.herokuapp.com", "localhost:8000", "127.0.0.1:8000"]
+ALLOWED_HOSTS = ["mytasksdjango.herokuapp.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
